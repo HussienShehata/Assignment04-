@@ -1,4 +1,8 @@
-﻿using System.Globalization;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.Globalization;
+using System.Reflection.Metadata;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 
 namespace Assignment04
@@ -135,7 +139,7 @@ namespace Assignment04
             //int.TryParse(Console.ReadLine(), out x);
             //int.TryParse(Console.ReadLine(), out y);
             //int prime;
-            //for(int i = x; i<=y; i++)
+            //for (int i = x; i <= y; i++)
             //{
             //    if (i % i == 0)
             //    {
@@ -359,8 +363,115 @@ namespace Assignment04
             //Console.WriteLine($"The second highest element in the array {number[2]}");
 
             #endregion
-         
 
+
+            #region Q17
+
+            //Console.WriteLine("Enter the elements of the array");
+            //int[] number = new int[5];
+            //int[] counter =new int[5] ;
+            //for (int i = 0; i < number.Length; i++)
+            //{
+            //    int.TryParse(Console.ReadLine(), out number[i]);
+            //}
+            //Console.WriteLine("The elements of the array: ");
+            //for (int i = 0; i < number.Length; i++)
+            //{
+            //    Console.WriteLine(number[i]);
+            //}
+
+            //for(int i = 0;i < number.Length; i++)
+            //    for(int j = 0; j < number.Length; j++)
+            //    {
+            //        if(number[i] == number[j])
+            //        {
+            //            //for (int k = 0; k < counter.Length; k++)
+            //            //{
+            //                counter[i] += 1 ;
+            //            //}
+            //        }
+            //    }
+            ////Console.WriteLine("lend")
+            //for (int i = 0; i<counter.Length; i++)
+            //{
+            //    Console.WriteLine($"Length between each same elemnts is :{ counter[i]}");
+            //}
+
+            #endregion
+
+            #region Q18
+
+            //string statement = Console.ReadLine();
+            //string[] listOfWords = statement.Split(' ');
+            //Console.WriteLine(listOfWords.Length);
+            //for (int i = listOfWords.Length-1; i >= 0; i--)
+            //{
+            //    Console.Write($"{listOfWords[i]} ");
+            //}
+
+            #endregion
+
+
+            #region Q19
+
+            //int[,] numbers = new int[2, 3];
+            //int[,] copyNumbers = new int[2, 3];
+            //for (int i = 0; i < numbers.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"the row is {i + 1} :");
+            //   for (int j = 0; j < numbers.GetLength(1); j++)
+            //   {
+            //    int.TryParse(Console.ReadLine(), out numbers[i, j]);
+            //   }
+            //}
+            //Console.WriteLine("multidimensional array is :");
+            //for (int i = 0; i < numbers.GetLength(0); i++)
+            //{
+
+            //    Console.WriteLine($" the row is {i + 1}:");
+
+            //    for (int j = 0; j < numbers.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine($"{numbers[i, j]} ");
+            //    }
+
+            //}
+
+            //Array.Copy(numbers, copyNumbers, 6);
+
+           
+            //Console.WriteLine("Copy of multidimensional array is :");
+            //for (int i = 0; i < copyNumbers.GetLength(0); i++)
+            //{
+
+            //    Console.WriteLine($" Second array row is {i + 1}:");
+
+            //    for (int j = 0; j < copyNumbers.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine($"{copyNumbers[i, j]} ");
+            //    }
+
+            }
+
+            #endregion
+
+
+            #region Q20
+            //Console.WriteLine("Enter The one dimensional array:");
+            //int[] numbers = new int[5];
+            //for(int i=0; i<numbers.Length; i++)    
+            //{
+            //   int.TryParse( Console.ReadLine(),out numbers[i]);
+            //}
+            //Console.Write($"Reversed elements ofthis array is : ");
+            //for (int i =numbers.Length-1;i>=0 ;i--)
+            //{
+            //    Console.Write($"{numbers[i]} " );
+            //}
+
+
+
+            #endregion
         }
     }
     
