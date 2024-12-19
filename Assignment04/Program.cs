@@ -273,7 +273,7 @@ namespace Assignment04
             //{
             //    Console.WriteLine(mergeNumbers[i]);
             //}
-          
+
 
 
             #endregion
@@ -331,6 +331,35 @@ namespace Assignment04
 
             #endregion
 
+            #region Q16
+            //Console.WriteLine("enter the elements of the array");
+            //int[] number = new int[4];
+            //int x;
+            //for(int i=0;i<number.Length;i++)
+            //{
+            //    int.TryParse(Console.ReadLine(), out number[i]);
+            //}
+            //for(int i=0;i<number.Length;i++)
+            //{
+            //    for(int j=0;j<number.Length;j++)
+            //    {
+            //        if (number[j] > number[i])
+            //        {
+            //            x = number[i];
+            //               number[i] = number[j];
+            //            number[j] = x;
+            //        }
+            //    }
+            //}
+            //Console.WriteLine("array after sorting");
+            //for (int i = 0; i < number.Length; i++)
+            //{
+            //    Console.WriteLine(number[i]);
+            //}
+            //Console.WriteLine($"The second highest element in the array {number[2]}");
+
+            #endregion
+         
 
         }
     }
